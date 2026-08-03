@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./index.css" />
+
+		<title>Sistema de Compras</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="./index.html">Home</a>
+
+				<select onchange="window.location.href=this.value">
+					<option disabled selected>Usuario</option>
+					<option value="./usuario/cadastrar.html">Cadastrar</option>
+					<option value="./usuario/consultar.html">Consultar</option>
+					<option value="./listar.html">Listar</option>
+				</select>
+			</nav>
+		</header>
+
+		<main>
+			<h1>Bem vindo ao Sistema de Compras!</h1>
+		</main>
+	</body>
+</html>
